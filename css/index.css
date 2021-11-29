@@ -1,6 +1,13 @@
 /* Variables */
 :root {
+  /* colors */
   --color-light: #f8f9fa;
+  --color-white: #ffff;
+
+  /* spacing */
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
 }
 
 /* Styles */

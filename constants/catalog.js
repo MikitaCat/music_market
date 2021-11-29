@@ -8,7 +8,7 @@ const CATALOG = [
   {
     id: 'el2',
     name: 'B.C. RICH S10',
-    img: 'img src="https://i.ibb.co/gMbMgCT/B-C-RICH-S10.jpg',
+    img: 'https://i.ibb.co/gMbMgCT/B-C-RICH-S10.jpg',
     price: 21500,
   },
   {
