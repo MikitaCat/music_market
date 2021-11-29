@@ -1,8 +1,13 @@
 class Header {
+  //Method to open cart
+  handlerOpenCart() {
+    cartPage.render();
+  }
+
   render(count) {
     const html = `
             <div class="header-container">
-                <div class="header-counter">🛒 ${count}</div>
+                <div class="header-counter" onclick="headerPage.handlerOpenCart()">🛒 ${count}</div>
             </div>
         `;
 

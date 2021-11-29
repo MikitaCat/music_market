@@ -5,6 +5,7 @@
   --color-white: #ffff;
   --color-unaccent: #808080;
   --color-medium: #e8e8e8;
+  --color-dark: #a1a1a1;
 
   /* spacing */
   --spacing-small: 10px;
@@ -27,6 +28,21 @@
   box-sizing: border-box;
 }
 
+/* scroll options */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-white);
+}
+
+/* body */
 body {
   margin: 0;
   padding: 0;
